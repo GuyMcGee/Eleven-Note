@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ElevenNote.Services.User
 {
-    internal interface Interface1
+    public interface IUserService
     {
     }
 }

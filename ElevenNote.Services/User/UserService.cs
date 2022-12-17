@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ElevenNote.Services.User
 {
-    internal class Class1
+    internal class UserService : IUserService
     {
     }
 }
