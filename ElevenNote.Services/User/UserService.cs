@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ElevenNote.Services.User
+﻿
+public class UserService : IUserService
 {
-    internal class UserService : IUserService
+    private ApplicationDbContext _dbcontext;
+
+    public UserService(ApplicationDbContext dbcontext)
     {
+        _dbcontext = dbcontext;
+    }
+
+    public Task<bool> RegisterUserAsync(UserRegister model)
+    {
+        throw new NotImplementedException();
     }
 }
